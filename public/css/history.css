@@ -1,0 +1,24 @@
+.lesson {
+    background-color: #635c54;
+    margin: 1em;
+    padding: 1em;
+    border-radius: 20px;
+    width: 53vw;
+}
+
+.see {
+    position: relative;
+}
+
+.detail {
+    margin: 0;
+    padding: 0;
+    background: none;
+    border: none;
+    position: absolute;
+    right: 10%;
+    top: 50%;
+    transform: translate(10%, -50%);
+    width: auto;
+    color: #dfdfdf;
+}

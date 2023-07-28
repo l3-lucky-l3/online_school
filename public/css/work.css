@@ -1,0 +1,89 @@
+b {
+    font-weight: 900;
+    font-weight: bold;
+}
+
+.search_form {
+    width: 100%;
+    position: relative;
+    margin-bottom: 1em;
+}
+
+.search_form>div {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+}
+
+.search_form>div>label {
+    width: 20%;
+}
+
+.search_form>div>input,
+.search_form>div>select {
+    margin: 0;
+    width: 60%;
+}
+
+.search_form>div>label,
+.search_form>div>input,
+.search_form>div>select {
+    padding: 1em 0;
+}
+
+.search_btn {
+    position: absolute;
+    width: 20%;
+    height: 100%;
+    right: 0;
+    top: 0;
+    margin: 0;
+    padding: 0;
+}
+
+.div_filter {
+    margin-bottom: 1.5em;
+}
+
+.div_filter>p {
+    text-indent: 1.5em;
+    margin: 0;
+    padding: 0;
+}
+
+
+/*  */
+
+.lesson {
+    background-color: rgb(99, 92, 84);
+    margin: 1em;
+    padding: 1em;
+    border-radius: 20px;
+}
+
+.question {
+    text-align: center;
+    padding: 1em;
+}
+
+.class_detail {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    position: relative;
+}
+
+.detail {
+    margin: 0;
+    padding: 0;
+    background: none;
+    border: none;
+    position: absolute;
+    right: 5%;
+    width: auto;
+    color: rgb(223, 223, 223);
+}
+
+.take {
+    margin: .5em 0;
+}
